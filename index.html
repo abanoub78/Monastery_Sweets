@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/home.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <!--start header-->
+    <div class="header">
+      <div class="container">
+        
+  <div class="lo">
+    <img src="pics/image-removebg-preview (9).png" alt="logo" />
+    <a href="#" class="logo">حلويات</a>
+  </div>
+        <ul class="main-nav">
+          <li><a href="#a">فول & حمص </a></li>
+          <li><a href="#b">حلويات  </a></li>
+          <li><a href="#c">مشروبات</a></li>
+          <li><a href="#d">سناكس  </a></li>
+          <li><a href="#e">اضافات  </a></li>
+
+        </ul>
+        <i class="fas fa-bars menu" style="color: rgb(53, 122, 189);" onclick="toggleMenu2()"></i>
+
+                  <!-- <button class="btn"><a href="code.html">Logout</a></button>
+                   <a href="profile.html"><img src="pics/profile-icon-png-8 (1).jpg" class="pro"></a>  -->
+
+                   <img src="pics/shopcar.png" class="user-pic" id="userpic" onclick="toggleMenu()">
+                   <div class="sub-menu-wrap" id="subMenu"  style="overflow-y: auto;">
+                    <div class="sub-menu">
+                      <div id="root"></div>
+                        <div class="user-info">
+                            <h3 id="profName"> قائمة المشتريات </h3>
+                            <i class="fas fa-redo clear" style="color: #3e7dea;"></i>
+                        </div>
+                        <hr>
+                      <div id="cartitem">Your Cart Is Empty</div>
+                       
+                        <hr>
+                        <div class="foot">
+                          <h3>Total</h3>
+                          <h3 id="price">0.00 EP</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+      </div>
+      <div class="main-menu-warp">
+        <div class="sub-mmenu">
+          <ul class="nav">
+            <li><a href="#a">فول & حمص </a></li>
+            <li><a href="#b">حلويات  </a></li>
+            <li><a href="#c">مشروبات</a></li>
+            <li><a href="#d">سناكس  </a></li>
+            <li><a href="#e">اضافات  </a></li>
+  
+          </ul>
+        </div>
+        </div>
+    </div>
+    <!--end header-->
+
+    <!--start landing-->
+    <div class="landing">
+      <div class="container">
+
+        <div class="text">
+          <h1>يا رب سلام</h1>
+          <p> معرض<span> حلوياات ام النور </span> يرحب بكم </p>
+        </div>
+        <div class="image">
+          <!-- <img src="pics/landing-image.png" alt="landing" /> -->
+          <img src="pics/image-removebg-preview.png" alt="landing" />
+
+        </div>
+      </div>
+      <a href="#a" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+      </a>
+      <i class="fas fa-arrow-up up"></i>
+
+    </div>
+
+    <!--end landing-->
+
+    <!--start articles-->
+    <div class="articles" id="a">
+      <h2 class="main-title">فول & حمص</h2>
+      <div class="container">
+        <div class="box">
+          <img src="pics/فول.jpg" alt="">
+          <div class="content">
+            <h3> كيلو فول سوداني </h3>
+            <h4>30 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        
+        <div class="box">
+          <img src="pics/فول2.jpg" alt="">
+          <div class="content">
+            <h3> نص كيلو سوداني </h3>
+            <h4>15 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/حمص.jpg" alt="">
+          <div class="content">
+            <h3> كيلو حمص  </h3>
+            <h4>20 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/حمص2.avif" alt="">
+          <div class="content">
+            <h3>نص كيلو حمص </h3>
+            <h4>10 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+     <!--end articles-->
+
+
+
+<!--start Testimonials-->
+<div class="articles2" id="b">
+  <h2 class="main-title">حلويات</h2>
+  <div class="container">
+    <div class="box">
+      <img src="pics/السمسمية.jpg" alt="">
+      <div class="content">
+        <h3>  سمسميه ساده </h3>
+        <h4>30 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/فوليه.jpg" alt="">
+      <div class="content">
+        <h3>  فوليه ساده </h3>
+        <h4>30 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/حمصية1.jpg" alt="">
+      <div class="content">
+        <h3>  حمصيه ساده </h3>
+        <h4>30 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/سمسم.jpg" alt="">
+      <div class="content">
+        <h3> طبق مشكل </h3>
+        <h4>30 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+
+
+    <div class="box">
+      <img src="pics/ملبن.jpg" alt="">
+      <div class="content">
+        <h3>  ملبن  </h3>
+        <h4>20 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/حلاوه.jpg" alt="">
+      <div class="content">
+        <h3>  حلاوه الوان </h3>
+        <h4>15 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/فوندام.jpg" alt="">
+      <div class="content">
+        <h3>  حلاوه فوندام </h3>
+        <h4>15 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/عسليه.jpg" alt="">
+      <div class="content">
+        <h3>  عسليه  </h3>
+        <h4>15 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/زلابيه1.jpg" alt="">
+      <div class="content">
+        <h3>  زلابيه كور </h3>
+        <h4>5 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/زلابيه11.jpg" alt="">
+      <div class="content">
+        <h3>  زلابيه قرص </h3>
+        <h4>5 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="pics/مشبك.jpg" alt="">
+      <div class="content">
+        <h3>  مشبك </h3>
+        <h4>20 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/حمصيه قرص.jpg" alt="">
+      <div class="content">
+        <h3>  حلاوه حمصيه </h3>
+        <h4>20 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--end Testimonials-->
+
+
+    <!--start articles-->
+    <div class="articles" id="c">
+      <h2 class="main-title">مشروبات</h2>
+      <div class="container">
+        <div class="box">
+          <img src="pics/مياه1.jpg" alt="">
+          <div class="content">
+            <h3>  مياه كبير </h3>
+            <h4>4 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/مياه2.jpg" alt="">
+          <div class="content">
+            <h3>مياه صغير </h3>
+            <h4>2 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/كولا.jpg" alt="">
+          <div class="content">
+            <h3>  ساقع  </h3>
+            <h4>6 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/عصير.jpg" alt="">
+          <div class="content">
+            <h3> عصير علب  </h3>
+            <h4>5 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/عصير2.jpg" alt="">
+          <div class="content">
+            <h3>  عصير  </h3>
+            <h4>3 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/شاي.jpg" alt="">
+          <div class="content">
+            <h3>  شاي  </h3>
+            <h4>3 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+     <!--end articles-->
+
+
+
+     <div class="articles2" id="d">
+      <h2 class="main-title">سناكس</h2>
+      <div class="container">
+        <div class="box">
+          <img src="pics/فشار.jpg" alt="">
+          <div class="content">
+            <h3>  فشار  </h3>
+            <h4>5 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/فنكوش.jpg" alt="">
+          <div class="content">
+            <h3>  فنكوش  </h3>
+            <h4>5 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/سناكس.jpg" alt="">
+          <div class="content">
+            <h3>  سناكس  </h3>
+            <h4>5 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/كيمو.jpg" alt="">
+          <div class="content">
+            <h3>  كيمو </h3>
+            <h4>6 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/لب1.jpg" alt="">
+          <div class="content">
+            <h3>  لب سوبر  </h3>
+            <h4>5 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/لب3.jpeg" alt="">
+          <div class="content">
+            <h3>  لب ابيض  </h3>
+            <h4>8 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="pics/لب2.jpg" alt="">
+          <div class="content">
+            <h3>  لب صيني  </h3>
+            <h4>5 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pics/اندومي.webp" alt="">
+          <div class="content">
+            <h3>  اندومي </h3>
+            <h4>8 EG</h4>
+          </div>
+          <div class="info">
+            <button class="addcart">Add To Cart</button>
+            <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+          </div>
+        </div>
+
+      </div>
+     </div>
+
+
+
+
+<!--start articles-->
+<div class="articles" id="e">
+  <h2 class="main-title">اضافات</h2>
+  <div class="container">
+    <div class="box">
+      <img src="pics/عسل.webp" alt="">
+      <div class="content">
+        <h3>  عسل كبير </h3>
+        <h4>60 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/ملوحه.jpg" alt="">
+      <div class="content">
+        <h3>ملوحه صغير </h3>
+        <h4>40 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="pics/ملوخيه.jpg" alt="">
+      <div class="content">
+        <h3>ملوخيه  </h3>
+        <h4>50 EG</h4>
+      </div>
+      <div class="info">
+        <button class="addcart">Add To Cart</button>
+        <i class="fas fa-shopping-cart" style="color: #2196f3;"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <!--end articles-->
+
+
+
+
+
+
+<!-- start  footer -->
+<div class="footer">
+  <div class="container">
+    <div class="box">
+      <h3>ام النور تدبر الامور</h3>
+      <div class="sochial">
+        <ul>
+          <li><a href="https://www.facebook.com/abanob.yosry.5" class="facebook"><i class="fab fa-facebook-f"></i> </a></li>
+          <li>
+            <a href="#" class="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      
+      </div>
+    </div>
+    <div class="box">
+      <ul class="links">
+        <li><a href="https://www.facebook.com/abanob.yosry.5">Facebook Link </a></li>
+
+      </ul>
+    </div>
+    <div class="box">
+      <div class="line">
+        <i class="fas fa-map-marker-alt fa-fw"></i>
+        <div class="info">Egypt, Assuit, Abotige</div>
+      </div>
+      <div class="line">
+        <i class="far fa-clock fa-fw"></i>
+        <div class="info">Business Hours: From 10:00 To 18:00</div>
+      </div>
+      <div class="line">
+        <i class="fas fa-phone-volume fa-fw"></i>
+        <div class="info"><span>+201113981508</span></div>
+      </div>
+      <h2 class="right">All Right Reserved to &copy; Eng : Abanoub Yousry</h2>
+
+    </div>
+    
+  </div>
+</div>
+<!-- End  footer -->
+
+
+<script src="javascript/script.js"></script>
+
+  </body>
+</html>  
